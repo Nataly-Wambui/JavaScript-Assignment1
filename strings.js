@@ -3,10 +3,10 @@ let word= "extravaganza"
 console.log(word.substring(8,12))
 
 // Question 2
-let origString= "The quick fox jumped over the lazy dog";
+const food= "The quick fox jumped over the lazy dog";
 let stringToAdd= "eat";
 let indexPosition= 4;
-let newString= origString.substring(0, indexPosition)+stringToAdd+origString.substring(indexPosition);
+let newString= food.substring(0, indexPosition)+stringToAdd+food.substring(indexPosition);
 console.log({newString});
 
 // Question 3
